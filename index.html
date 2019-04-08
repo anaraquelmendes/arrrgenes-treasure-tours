@@ -11,13 +11,17 @@
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
 </head>
 <body>
+<ul class="skip-links">
+  <li><a href="#main">Jump to Main</a></li>
+    <li><a href="#main">Jump to Navigation</a></li>
+  </ul>
 
-  <div class="masthead grid grid-middle gutter">
+  <header class="masthead grid grid-middle gutter" role="banner">
     <h1 class="logo push-0 unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2">
       <i class="icon i-32 push-r-1-4"><img src="images/logo.svg" alt=""></i>
       <span class="logo-text giga icon-label text-left">Arrrgene’s Treasure Tours</span>
     </h1>
-    <div class="nav unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2">
+    <nav id="nav" tabindex="0" role="navigation" class="nav unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2">
       <ul class="list-group-inline mega push-0">
         <li><a class="ib gutter-1-4" href="#"><span>Tours</span></a></li>
         <li><a class="ib gutter-1-4" href="#"><span>Ships</span></a></li>
@@ -26,7 +30,8 @@
     </div>
   </div>
 
-  <div>
+<main id="main" tabindex="0" role="main">
+  <selection>
     <div class="banner embed embed-16by9">
       <img class="embed-item" src="images/banner.jpg" alt="">
       <div class="banner-content pin-c w-1 max-length gutter text-center">
